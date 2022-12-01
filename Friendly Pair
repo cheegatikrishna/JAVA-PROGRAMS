@@ -1,0 +1,36 @@
+import java.util.*;
+public class Friendly
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int x,y;
+        int num;
+        num=sc.nextInt();
+        x=sc.nextInt();
+        int a=0,b=0,c,d;
+        for(int i=1;i<num;i++)
+        {
+        if(num % i == 0)
+        {
+            a=a+i;
+        }
+        }
+        c=a/num;
+        for(int i=1;i<=x;i++){
+        if(x%i==0)
+        {
+            b=b+i;
+        }
+        }
+        d=b/x;
+        if(a==b)
+        {
+            System.out.println("Friendly Pair");
+        }
+        else
+        {
+            System.out.println("Not Friendly Pair");
+        }
+    }
+}
