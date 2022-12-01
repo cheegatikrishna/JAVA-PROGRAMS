@@ -1,0 +1,14 @@
+import java.util.*;
+public class InputOutput5
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        char a;
+        a=sc.next().charAt(0);
+        int b=(char)a;
+        System.out.printf("%d",b);
+        
+        
+    }
+}
