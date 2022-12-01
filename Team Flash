@@ -1,0 +1,20 @@
+import java.util.*;
+public class Flash
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a,b,c,d;
+        float e,f,h,i;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        e=a+c;
+        f=b+d;
+        h=e/2;
+        i=f/2;
+        System.out.println(h);
+        System.out.println(i);
+    }
+}
