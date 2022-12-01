@@ -1,0 +1,21 @@
+import java.util.*;
+public class Area
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int w,h,s,rec,a;
+        float r;
+        a=sc.nextInt();
+        w=sc.nextInt();
+        h=sc.nextInt();
+        r=sc.nextFloat();
+        s=a*a;
+        rec=w*h;
+        System.out.println(s);
+        System.out.println(rec);
+        System.out.printf("%.2f",3.141*r*r);
+
+        //write your code
+    }
+}
