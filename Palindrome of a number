@@ -1,0 +1,25 @@
+import java.util.*;
+public class Palindrome
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+         int n=sc.nextInt();
+        int original,remainder,reversed=0;
+        original=n;
+        while(n!=0)
+        {
+            remainder=n%10;
+            reversed=reversed*10+remainder;
+            n=n/10;
+            if(original==reversed)
+            {
+                System.out.println("Palindrome");
+            }
+            else
+            {
+                System.out.println("Not a Palindrome");
+            }
+        }
+    }
+}
