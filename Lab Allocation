@@ -1,0 +1,27 @@
+import java.util.*;
+public class Lab
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int X,Y,Z;
+        System.out.println("Enter x");
+        X=sc.nextInt();
+        System.out.println("Enter y");
+        Y=sc.nextInt();
+        System.out.println("Enter Z");
+        Z=sc.nextInt();
+        if(X<Y && X<Z)
+        {
+             System.out.println("L1 has the minimal seating capacity");
+        }
+        else if(Y<X && Y<Z)
+        {
+             System.out.println("L2 has the minimal seating capacity");
+        }
+        else
+        {
+             System.out.println("L3 has the minimal seating capacity");
+        }
+    }
+}
