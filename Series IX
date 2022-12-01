@@ -1,0 +1,17 @@
+import java.util.*;
+public class Series9
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n;
+        long b=2;
+        n=sc.nextInt();
+        System.out.print(b+" ");
+        for(int i=1;i<n;i++)
+        {
+            b=(b*b)-1;
+            System.out.print(b+" ");
+        }
+    }
+}
