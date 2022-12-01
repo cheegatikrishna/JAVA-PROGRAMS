@@ -1,0 +1,30 @@
+import java.util.*;
+public class Add
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        //int n2=sc.nextInt();
+        int i,j;
+        int a[]=new int[n];
+        int b[]=new int[n];
+        int c[]=new int[n];              
+        for(j=0;j<n;j++)
+        {
+            a[j]=sc.nextInt();
+        }
+        for(j=0;j<n;j++)
+        {
+            b[j]=sc.nextInt();
+        }
+        for(j=0;j<n;j++)
+        {
+            c[j]=a[j]+b[j];
+            System.out.print(+c[j]+" ");
+        }
+        
+         
+        //Write your code
+    }
+}
