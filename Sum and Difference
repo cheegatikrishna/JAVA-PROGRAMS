@@ -1,0 +1,16 @@
+import java.util.*;
+public class SumDiff
+{
+    public static void main(String args[])
+    {
+    Scanner sc=new Scanner(System.in);
+    int a;
+    a=sc.nextInt();
+    int b;
+    b=sc.nextInt();
+    int m=a+b;
+    int n=a-b;
+    System.out.println(m);//sum
+    System.out.print(n);//difference
+    }
+}
