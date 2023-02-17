@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.Math;
+class Pattern9
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        double  a=sc.nextDouble();
+        double  b=sc.nextDouble();
+        double  c=sc.nextDouble();
+        double d=(b*b)-(4*a*c);
+        double r,r1;
+        if(d>0)
+        {
+             r=-b+Math.sqrt(d/(2*a));
+              r1=-b-Math.sqrt(d/(2*a));
+             System.out.printf("r=%.2f and r1=%.2f",r,r1);
+        }
+        else if(d==0)
+        {
+             r=r1=(-b/(2*a));
+              System.out.printf("r=%.2f and r1=%.2f",r,r1);
+        }
+        else
+        {
+             double real=(-b/(2*a));
+              double imaginary=Math.sqrt(-d/(2*a));
+             System.out.printf("r=%.2f+%.2fi and r1=%.2f-%.2fi",real,imaginary,real,imaginary);
+        }
+    }
+}
+    
