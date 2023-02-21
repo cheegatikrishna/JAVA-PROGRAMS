@@ -1,0 +1,22 @@
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+class Solution {
+
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        long n = in.nextLong();
+        long s=0;
+        for(int i=1;i<=n;i++)
+        {
+            int a=i*2;
+            s=s+a;
+        }
+        System.out.print(s);
+    }
+}
